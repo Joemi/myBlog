@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+<package name="blog" namespace="/"  extends="struts-default">
+	
+	<action name="uploadImg_*" class="action.UploadImgAction" method="{1}">
+		<param name="errorMessage">文件大小不超过2M，且只支持“PNG JPG JPEG”文件格式，请选择有效文件</param>
+		<param name="fileUpload.maximumSize">2097153</param>
+		<param name="fileUpload.allowedExtensions">png,jpg,jpeg</param>
+	</action>
+</package>
+</struts>    
