@@ -1,0 +1,16 @@
+$section-width: 700px;
+
+@mixin section-mixin {
+  margin: 0 auto;
+  width: $section-width;
+}
+
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+$len: 10px;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
