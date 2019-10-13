@@ -1,5 +1,5 @@
 # 个人博客分享网站
-描述：前端使用Vue框架进行页面实现，通过axios实现前后台连接，route实现页面跳转。后端采用JAVA语言开发，结合框架springMVC实现请求接受和hibernate框架进行mysql数据库的增删改查。
+描述：前端使用Vue框架进行页面实现，通过axios实现前后台连接，route实现页面跳转。后端采用JAVA语言进行逻辑处理，框架springMVC实现请求接收与返回数据，框架hibernate进行mysql数据库的增删改查。
 
 # 功能实现
 * 登录注册
