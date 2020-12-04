@@ -12,7 +12,7 @@
     "babel-polyfill": "^6.26.0",
     "element-ui": "^2.3.7",
     "github-markdown-css": "^2.10.0",
-    "highlight.js": "^9.12.0",
+    "highlight.js": "^10.4.1",
     "vue": "^2.5.16",
     "vue-file-upload": "^0.1.12",
     "vue-router": "^3.0.1",
